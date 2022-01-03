@@ -1,0 +1,51 @@
+
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone supercharge website repository
+      uses: actions/checkout@v2
+
+    - name: Clone Lissy93/dashy repository
+      uses: actions/checkout@v2
+      with:
+        repository: Lissy93/dashy
+        path: dashy
+        ref: master
+
+    - name: Copy my-config.yml to Dashy
+      run: cp my-config.yml dashy/public/conf.yml
+
+    - name: Run install
+      working-directory: dashy
+      run: yarn install
+
+    - name: Run build
+      working-directory: dashy
+      run: yarn build
+
+      # - name: GitHub Pages Deploy
+      #   uses: JamesIves/github-pages-deploy-action@releases/v3
+      #   with:
+      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #     BRANCH: gh-pages
+      #     FOLDER: dist
+
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ftp.lucasbaccan.com.br
+        FTP_USERNAME: github-matera-dashy@lucasbaccan.com.br
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: ./dashy/dist/
+        REMOTE_DIR: ./
+        ARGS: --verbose	--delete

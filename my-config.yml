@@ -1,0 +1,345 @@
+appConfig:
+  theme: material
+  customColors:
+    material:
+      primary: '#363636'
+      background: '#eee'
+      background-darker: '#5c90eb'
+      info: '#04e4f4'
+      success: '#20e253'
+      warning: '#d4d015'
+      error: '#fca016'
+      danger: '#f80363'
+      neutral: '#272f4d'
+      white: '#fff'
+      black: '#000'
+      item-group-background: none
+      medium-grey: '#5e6474'
+      item-background: '#fff'
+      item-background-hover: '#fff'
+      transparent-70: rgba(0,0,0,0.701961)
+      transparent-50: rgba(0,0,0,0.501961)
+      transparent-30: rgba(0,0,0,0.301961)
+      transparent-white-70: hsla(0,0%,100%,0.701961)
+      transparent-white-50: rgba(0,0,0,0.501961)
+      transparent-white-30: hsla(0,0%,100%,0.301961)
+      heading-text-color: '#fff'
+      nav-link-text-color: '#fff'
+      nav-link-background-color: '#0c4eba'
+      nav-link-text-color-hover: '#363636'
+      nav-link-background-color-hover: rgba(96,125,139,0.2)
+      nav-link-border-color: '#0c4eba'
+      nav-link-border-color-hover: '#363636'
+      nav-link-shadow: '1px 1px 2px #232323'
+      nav-link-shadow-hover: '1px 1px 2px #232323'
+      item-text-color: '#636363'
+      item-text-color-hover: '#0d0d0d'
+      item-group-outer-background: none
+      item-group-heading-text-color: none
+      item-group-heading-text-color-hover: '#363636'
+      settings-text-color: '#363636'
+      settings-background: '#eee'
+      config-settings-color: '#473f3f'
+      config-settings-background: '#f5f5f5'
+      config-code-color: '#363636'
+      config-code-background: '#fff'
+      code-editor-color: '#000'
+      code-editor-background: '#fff'
+      widget-text-color: '#363636'
+      widget-background-color: '#eee'
+      widget-accent-color: '#eee'
+      widget-base-background: transparent
+      interactive-editor-color: '#473f3f'
+      interactive-editor-background: '#f5f5f5'
+      interactive-editor-background-darker: '#fff'
+      cloud-backup-color: '#473f3f'
+      cloud-backup-background: '#f5f5f5'
+      search-container-background: '#4285f4'
+      search-field-background: '#eee'
+      search-label-color: '#363636'
+      footer-text-color: hsla(0,0%,96.1%,0.8)
+      footer-text-color-link: '#363636'
+      footer-background: '#5c90eb'
+      context-menu-background: '#fff'
+      context-menu-color: '#363636'
+      context-menu-secondary-color: '#f5f5f5'
+      side-bar-background: '#5c90eb'
+      side-bar-background-lighter: '#0c4eba'
+      side-bar-color: '#363636'
+      side-bar-item-background: '#f5f5f5'
+      side-bar-item-color: '#363636'
+      workspace-web-content-background: '#eee'
+      minimal-view-background-color: '#eee'
+      minimal-view-title-color: '#5c90eb'
+      minimal-view-settings-color: '#363636'
+      minimal-view-section-heading-color: '#363636'
+      minimal-view-section-heading-background: '#f6f6f6'
+      minimal-view-search-background: '#fff'
+      minimal-view-search-color: '#363636'
+      minimal-view-group-color: '#363636'
+      minimal-view-group-background: '#fff'
+      login-form-color: '#363636'
+      login-form-background: '#eee'
+      login-form-background-secondary: '#5c90eb'
+      about-page-color: '#363636'
+      about-page-background: '#eee'
+      about-page-accent: '#363636'
+      scroll-bar-color: '#363636'
+      scroll-bar-background: '#5c90eb'
+      highlight-color: '#eee'
+      highlight-background: '#363636'
+      progress-bar: '#363636'
+      loading-screen-color: '#363636'
+      loading-screen-background: '#eee'
+      status-check-tooltip-background: '#fff'
+      status-check-tooltip-color: '#363636'
+      welcome-popup-background: '#5c90eb'
+      welcome-popup-text-color: '#f5f5f5'
+      toast-background: '#363636'
+      toast-color: '#eee'
+      description-tooltip-background: '#fff'
+      description-tooltip-color: '#473f3f'
+      outline-color: none
+      curve-factor: 5px
+      curve-factor-navbar: 8px
+      curve-factor-small: 2px
+      dimming-factor: '0.7'
+      scroll-bar-width: 8px
+      header-height: 6.3rem
+      footer-height: 140px
+      item-group-padding: 5px
+      item-shadow: 0 1px 3px rgba(0,0,0,0.121569),0 1px 2px rgba(0,0,0,0.239216)
+      item-hover-shadow: 0 1px 4px rgba(0,0,0,0.160784),0 2px 4px rgba(0,0,0,0.164706)
+      item-icon-transform: drop-shadow(2px 4px 6px rgba(0,0,0,0.501961)) saturate(0.95)
+      item-icon-transform-hover: none
+      item-group-shadow: none
+      context-menu-shadow: 0 1px 3px rgba(0,0,0,0.121569),0 1px 2px rgba(0,0,0,0.239216)
+      section-max-height: 3000px
+      settings-container-shadow: none
+      side-bar-width: 3.5rem
+      tooltip-arrow-size: 6px
+      tooltip-width: 250px
+      tooltip-padding: 0.2rem
+      font-body: '"Raleway",serif'
+      font-headings: '"Francois One",serif'
+      font-monospace: '"PTMono","Courier New",monospace'
+  enableErrorReporting: true
+  layout: auto
+  iconSize: small
+  language: pt
+  webSearch:
+    disableWebSearch: false
+    searchEngine: google
+    openingMethod: newtab
+    searchBangs: {}
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: false
+    hideFooter: false
+  allowConfigEdit: true
+  startingView: default
+  defaultOpeningMethod: newtab
+  statusCheck: false
+  statusCheckInterval: 0
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  auth:
+    enableGuestAccess: false
+    users: []
+    enableKeycloak: false
+  showSplashScreen: true
+  preventWriteToDisk: true
+  preventLocalSave: false
+  disableConfiguration: false
+  enableServiceWorker: true
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+pageInfo:
+  title: Lucas Baccan - Matera Dashy
+  description: Um compilado de links importantes
+  navLinks:
+    - title: GitHub
+      path: https://github.com/lucasbaccan/matera-dashy/
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
+  footerText: Esse projeto é mantido por Lucas Baccan
+sections:
+  - name: Matera - Importantes
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Workplace
+        description: ''
+        icon: https://matera.workplace.com/favicon.ico
+        url: https://matera.workplace.com/
+        target: newtab
+        id: 0_1885_workplace
+      - title: Apontamento
+        icon: https://apontamento.matera.com/favicon.ico
+        url: https://apontamento.matera.com/
+        target: newtab
+        id: 1_1885_apontamento
+      - title: MyBoard
+        icon: https://apontamento.matera.com/favicon.ico
+        url: http://myboard.matera.com/
+        target: newtab
+        id: 2_1885_myboard
+  - name: Google
+    icon: fab fa-google
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gmail
+        icon: https://mail.google.com/favicon.ico
+        url: http://mail.google.com
+        target: newtab
+        id: 0_605_gmail
+      - title: Calendar
+        icon: >-
+          https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_4_2x.png
+        url: https://calendar.google.com/calendar/u/0/r/customday
+        target: newtab
+        id: 1_605_calendar
+      - title: Drive
+        icon: https://drive.google.com/favicon.ico
+        url: https://drive.google.com/drive/u/0/my-drive
+        target: newtab
+        id: 2_605_drive
+      - title: Meet(Criar)
+        icon: https://meet.google.com/favicon.ico
+        url: https://meet.new/
+        target: newtab
+        id: 3_605_meetcriar
+      - title: Keep
+        icon: https://ssl.gstatic.com/keep/keep_2020q4v2.ico
+        url: https://keep.google.com/
+        target: newtab
+        id: 4_605_keep
+  - name: Atlassian
+    icon: fab fa-atlassian
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jira
+        icon: fab fa-jira
+        url: https://jira.matera.com/
+        target: newtab
+        id: 0_928_jira
+      - title: Jira-DevSeguro
+        icon: fab fa-jira
+        url: https://jira.matera.com/secure/RapidBoard.jspa?rapidView=416
+        target: newtab
+        id: 1_928_jiradevseguro
+      - title: Jira-Apoio
+        icon: fab fa-jira
+        url: https://jira.matera.com/secure/RapidBoard.jspa?rapidView=911
+        target: newtab
+        id: 2_928_jiraapoio
+      - title: Jira-Gantt
+        icon: fab fa-jira
+        url: https://jira.matera.com/plugins/servlet/gsj/gantt#/gantt/chart/52
+        target: newtab
+        id: 3_928_jiragantt
+      - title: Confluence
+        icon: fab fa-confluence
+        url: https://confluence.matera.com/
+        target: newtab
+        id: 4_928_confluence
+      - title: Bitbucket
+        icon: fab fa-bitbucket
+        url: https://stash.matera.com
+        target: newtab
+        id: 5_928_bitbucket
+  - name: Dashboards
+    icon: fas fa-bookmark
+    displayData:
+      sortBy: default
+      cols: 4
+      rows: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: DefectDojo
+        url: >-
+          https://provisionamento.matera.com/d/6iwmfMo7k/integracoes-defect-dojo?orgId=1&refresh=5m&from=now-5m&to=now
+        target: newtab
+        id: 0_1019_defectdojo
+      - title: Conviso
+        url: >-
+          https://datastudio.google.com/reporting/9026ec0f-63b9-4b95-b9b0-d94660d7b6db
+        target: newtab
+        id: 1_1019_conviso
+      - title: DevSeguro
+        url: >-
+          https://datastudio.google.com/reporting/2d72d2b7-7090-4898-91b3-b20967771282
+        target: newtab
+        id: 2_1019_devseguro
+      - title: Provisionamento
+        url: https://provisionamento.matera.com/
+        target: newtab
+        id: 3_1019_provisionamento
+  - name: Matera - Outros
+    displayData:
+      sortBy: default
+      cols: 4
+      rows: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: ADP (RH)
+        url: https://www.adpweb.com.br/rhweb19/
+        target: newtab
+        id: 0_1363_adprh
+      - title: Wiki
+        url: https://wiki.matera.com/
+        target: newtab
+        id: 1_1363_wiki
+      - title: Unimatera
+        url: https://matera.konviva.com.br/
+        target: newtab
+        id: 2_1363_unimatera
+      - title: 3CX (Telefone)
+        url: https://pbxmatera.my3cx.com.br:5001/
+        target: newtab
+        id: 3_1363_cxtelefone
+      - title: Benefícios
+        url: https://beneficios.matera.com/
+        target: newtab
+        id: 4_1363_benefcios
+      - title: AWS Console (matera-br)
+        url: https://matera-br.signin.aws.amazon.com/console/
+        target: newtab
+        id: 5_1363_awsconsolematerabr
+      - title: Matera Station
+        url: https://materastation.peepi.com.br/
+        target: newtab
+        id: 6_1363_materastation
+      - title: Team Culture
+        url: https://teamculture.com.br/
+        target: newtab
+        id: 7_1363_teamculture
+      - title: DefectDojo
+        url: https://defectdojo.matera.com/
+        target: newtab
+        id: 8_1363_defectdojo
