@@ -30,6 +30,6 @@ jobs:
           FTP_SERVER: ftp.lucasbaccan.com.br
           FTP_USERNAME: github-matera-dashy@lucasbaccan.com.br
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          LOCAL_DIR: ./dist
+          LOCAL_DIR: ./dist/
           REMOTE_DIR: ./
           ARGS: --verbose	--delete
