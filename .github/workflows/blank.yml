@@ -1,0 +1,19 @@
+
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    container: lissy93/dashy
+
+    steps:
+      - name: Run Hello World
+        run: echo Hello World!
+
+      - name: Run build
+        run: yarn build
