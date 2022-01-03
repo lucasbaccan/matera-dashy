@@ -9,9 +9,12 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     container: lissy93/dashy
 
     steps:
+      - uses: actions/checkout@v2
+
       - name: Run Hello World
         run: echo Hello World!
 
