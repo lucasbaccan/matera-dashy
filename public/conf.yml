@@ -1,50 +1,167 @@
 appConfig:
   theme: material-original
+  customColors:
+    material-dark-original:
+      primary: '#f36558'
+      background: '#39434C'
+      background-darker: '#eb615c'
+      material-light: '#f36558'
+      item-text-color: '#ff948a'
+      curve-factor: 5px
+  enableErrorReporting: true
   layout: auto
   iconSize: medium
   language: pt
 pageInfo:
-  title: Matera Dashy
-  description: Dashboard de links
+  title: Lucas Baccan - Matera Dashy
+  description: Um compilado de links importantes
   navLinks:
     - title: GitHub
-      path: https://github.com/lucasbaccan/matera-dashy
+      path: https://github.com/lucasbaccan/matera-dashy/
     - title: Documentation
       path: https://dashy.to/docs
   footerText: ''
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: Matera - Importantes
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
-      - title: Dashy Live
-        description: Development a project management links for Dashy
-        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-        url: https://live.dashy.to/
-        target: newtab
-        id: 0_1481_dashylive
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: favicon
-        id: 1_1481_github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-        id: 2_1481_docs
-      - title: Showcase
-        description: See how others are using Dashy
-        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-        icon: far fa-grin-hearts
-        id: 3_1481_showcase
-      - title: Config Guide
-        description: See full list of configuration options
-        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-        icon: fas fa-wrench
-        id: 4_1481_configguide
-      - title: Support
-        description: Get help with Dashy, raise a bug, or get in contact
-        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-        icon: far fa-hands-helping
-        id: 5_1481_support
+      - title: Workplace
+        description: ''
+        icon: https://matera.workplace.com/favicon.ico
+        url: https://matera.workplace.com/
+        id: 0_1885_workplace
+      - title: Apontamento
+        icon: https://apontamento.matera.com/favicon.ico
+        url: https://apontamento.matera.com/
+        id: 1_1885_apontamento
+    icon: https://apontamento.matera.com/favicon.ico
+  - name: Atlassian
+    icon: fab fa-atlassian
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jira
+        icon: fab fa-jira
+        url: https://jira.matera.com/
+        id: 0_928_jira
+      - title: Jira-DevSeguro
+        icon: fab fa-jira
+        url: https://jira.matera.com/secure/RapidBoard.jspa?rapidView=416
+        id: 1_928_jiradevseguro
+      - title: Jira-Gantt
+        icon: fab fa-jira
+        url: https://jira.matera.com/plugins/servlet/gsj/gantt#/gantt/chart/52
+        id: 2_928_jiragantt
+      - title: Confluence
+        icon: fab fa-confluence
+        url: https://confluence.matera.com/
+        id: 3_928_confluence
+      - title: Bitbucket
+        icon: fab fa-bitbucket
+        url: https://stash.matera.com
+        id: 4_928_bitbucket
+  - name: Google
+    icon: fab fa-google
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gmail
+        icon: https://mail.google.com/favicon.ico
+        url: http://mail.google.com
+        id: 0_605_gmail
+      - title: Calendar
+        icon: >-
+          https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_4_2x.png
+        url: https://calendar.google.com/calendar/u/0/r/customday
+        id: 1_605_calendar
+      - title: Drive
+        icon: https://drive.google.com/favicon.ico
+        url: https://drive.google.com/drive/u/0/my-drive
+        id: 2_605_drive
+  - name: Bookmarks
+    icon: fas fa-bookmark
+    displayData:
+      sortBy: default
+      cols: 4
+      itemCountX: 6
+      rows: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Alltube
+        icon: hl-alltube
+        id: 0_937_alltube
+      - title: YT Downloads
+        icon: hl-youtubedl
+        id: 1_937_ytdownloads
+      - title: Couch Potato
+        icon: hl-couchpotato
+        id: 2_937_couchpotato
+      - title: Jellyfin
+        icon: hl-jellyfin
+        id: 3_937_jellyfin
+      - title: FreshRSS
+        icon: hl-freshrss
+        id: 4_937_freshrss
+      - title: Requestrr
+        icon: hl-requestrr
+        id: 5_937_requestrr
+      - title: Web Torrent
+        icon: hl-webtorrent
+        id: 6_937_webtorrent
+      - title: Airsonic
+        icon: hl-airsonic
+        id: 7_937_airsonic
+      - title: FilePizza
+        icon: hl-filepizza
+        id: 8_937_filepizza
+      - title: Plex
+        icon: hl-plex
+        id: 9_937_plex
+      - title: PlexDrive
+        icon: hl-plexdrive
+        id: 10_937_plexdrive
+      - title: PlexRequests
+        icon: hl-plexrequests
+        id: 11_937_plexrequests
+  - name: Matera - Outros
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: ADP (RH)
+        icon: ''
+        url: https://www.adpweb.com.br/rhweb19/
+        id: 0_1363_adprh
+      - title: Wiki
+        url: https://wiki.matera.com/
+        id: 1_1363_wiki
+      - title: Unimatera
+        icon: ''
+        url: https://matera.konviva.com.br/
+        id: 2_1363_unimatera
+      - title: 3CX (Telefone)
+        url: https://pbxmatera.my3cx.com.br:5001/
+        id: 3_1363_cxtelefone
+      - title: Benefícios
+        url: https://beneficios.matera.com/
+        id: 4_1363_benefcios
+      - title: AWS Console (matera-br)
+        url: https://matera-br.signin.aws.amazon.com/console/
+        id: 5_1363_awsconsolematerabr
