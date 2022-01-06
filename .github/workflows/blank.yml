@@ -15,14 +15,18 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run Hello World
-        run: echo Hello World!
-
       - name: Run install
         run: yarn install      
         
       - name: Run build
         run: yarn build
+
+      - name: GitHub Pages Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
