@@ -182,17 +182,21 @@ sections:
       hideForGuests: false
     items:
       - title: Workplace
-        description: ''
+        description: Rede social corporativa utilizada pela Matera. (No VPN)
         icon: https://matera.workplace.com/favicon.ico
         url: https://matera.workplace.com/
         target: newtab
         id: 0_1885_workplace
       - title: Apontamento
+        description: Site para apontar as horas trabalhadas. (No VPN)
         icon: https://apontamento.matera.com/favicon.ico
         url: https://apontamento.matera.com/
         target: newtab
         id: 1_1885_apontamento
       - title: MyBoard
+        description: >-
+          Sistema interno da Matera, utilizado para abertura de chamados,
+          apontar horas, entre outros recursos. (VPN)
         icon: https://apontamento.matera.com/favicon.ico
         url: http://myboard.matera.com/
         target: newtab
@@ -343,3 +347,21 @@ sections:
         url: https://defectdojo.matera.com/
         target: newtab
         id: 8_1363_defectdojo
+  - name: Parceiros
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Conviso
+        description: ''
+        icon: https://app.conviso.com.br/favicon.ico
+        url: https://app.conviso.com.br/
+        target: newtab
+        id: 0_936_conviso
+      - title: Conviso Status
+        url: https://conviso.statuspage.io/
+        target: newtab
+        id: 1_936_convisostatus
