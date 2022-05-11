@@ -365,3 +365,22 @@ sections:
         url: https://conviso.statuspage.io/
         target: newtab
         id: 1_936_convisostatus
+  - name: Links rápidos
+    icon: fas fa-rocket
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Abrir apoio DevSecOps
+        description: Solicitar apoio
+        url: https://confluence.matera.com/pages/viewpage.action?pageId=41583376
+        target: newtab
+        id: 0_1197_abrirapoiodevsecops
+      - title: Acesso ferramentas
+        description: Solicitar acesso as ferramentas de desenvolvimento seguro
+        url: https://confluence.matera.com/pages/viewpage.action?pageId=36898168
+        target: newtab
+        id: 1_1197_acessoferramentas
